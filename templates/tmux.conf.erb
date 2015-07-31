@@ -1,0 +1,22 @@
+# MANAGED BY PUPPET! DO NOT EDIT!
+
+<% @set_option.each do |option| -%>
+set-option <%= option %>
+<% end -%>
+
+<% @set.each do |s| -%>
+set <%= s %>
+<% end -%>
+
+<% @bind_key.each do |bk| -%>
+bind-key <%= bk %>
+<% end -%>
+
+<% @unbind_key.each do |uk| -%>
+unbind-key <%= uk %>
+<% end -%>
+
+<% @set_window_option.each do |swo| -%>
+set-window-option <%= swo %>
+<% end -%>
+
